@@ -1,3 +1,5 @@
+**Note:** This is a slightly modified version of libmpdclient.
+
 libmpdclient
 ============
 
