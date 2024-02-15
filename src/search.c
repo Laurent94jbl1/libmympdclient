@@ -257,7 +257,7 @@ mpd_search_add_window(struct mpd_connection *connection,
 	assert(start <= end);
 
 	const size_t size = 64;
-	char *dest = mpd_search_prepare_append(connection, size);
+	char *dest = mpd_request_prepare_append(connection, size);
 	if (dest == NULL)
 		return false;
 
