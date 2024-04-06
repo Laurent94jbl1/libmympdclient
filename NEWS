@@ -2,6 +2,7 @@ libmpdclient 2.23 (not yet released)
 * support MPD protocol 0.24.0
   - allow window for listplaylist and listplaylistinfo
   - command "playlistlength"
+* new sticker find api
 
 libmpdclient 2.22 (2023/12/22)
 * drop the unmaintained Vala bindings
